@@ -1,0 +1,43 @@
+.tourist {
+	background: url('../images/travel.jpg');
+	padding-top: 120px;
+	padding-bottom: 200px;
+	color: #fff;
+	
+	&__block {
+		display: flex;
+	}
+
+	h4 {
+		text-align: center;
+		font-size: 36px;
+		line-height: normal;
+		padding-bottom: 95px;
+	}
+
+	&__text {
+		padding: 30px 55px;
+		background: #333333;
+	}
+	
+
+	&__author {
+		font-size: 20px;
+		text-transform: uppercase;
+		padding-bottom: 50px;
+		
+	}
+
+	&__desc {
+		text-indent: 25px;
+		position: relative;
+		
+		.quote {
+			position: absolute;
+			left:-35px;
+			top: -16px;
+			color: $blue;
+			font-size: 26px;
+		}
+	}
+}

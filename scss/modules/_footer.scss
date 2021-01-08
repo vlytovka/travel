@@ -1,0 +1,42 @@
+.footer {
+	padding-top: 110px;
+	padding-bottom: 50px;
+	background: $black;
+	text-align: center;
+	
+	&__social {
+		display: flex;
+		justify-content: center;
+		padding-top: 30px;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: #fff;
+		
+		&:hover {
+			color: $blue;
+			font-size: 25px;
+			
+		}
+	}
+
+	&__text {
+		color: #fff;
+	}
+
+	&-logo {
+		font-size: 30px;
+		text-transform: uppercase
+	}
+
+	&__item {
+		font-size: 20px;
+	}
+
+	&__item:not(:last-child) {
+		margin-right: 23px;
+		
+	}
+
+}

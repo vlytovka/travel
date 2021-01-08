@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+@include font-face('aleo', 'fonts/aleo/aleo-bold', 700);
+@include font-face('aleo', 'fonts/aleo/aleo-bolditalic', 700, italic);
+@include font-face('aleo', 'fonts/aleo/aleo-italic', 400, italic);
+@include font-face('aleo', 'fonts/aleo/aleo-light', 300);
+@include font-face('aleo', 'fonts/aleo/aleo-lightitalic', 300, italic);
+@include font-face('aleo', 'fonts/aleo/aleo-regular');
+@include font-face('aleo', 'fonts/aleo/aleo-light', 300);
+
+@include font-face('icomoon', 'fonts/icomoon/icomoon', $ver: '?wx3efl' );
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon/icomoon.eot?bcwj91');
+  src:  url('fonts/icomoon/icomoon.eot?bcwj91#iefix') format('embedded-opentype'),
+    url('fonts/icomoon/icomoon.ttf?bcwj91') format('truetype'),
+    url('fonts/icomoon/icomoon.woff?bcwj91') format('woff'),
+    url('fonts/icomoon/icomoon.svg?bcwj91#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-down:before {
+  content: "\e900";
+}
+.icon-check:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-like:before {
+  content: "\e903";
+}
+.icon-linkedin:before {
+  content: "\e904";
+}
+.icon-pinterest:before {
+  content: "\e905";
+}
+.icon-quote:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-twitter:before {
+  content: "\e908";
+}
+.icon-youtube:before {
+  content: "\e909";
+}
